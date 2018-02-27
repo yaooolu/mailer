@@ -1,11 +1,11 @@
 
-mailer
+mail_alert
 ======
 moniter project and send email when error occur (for python >3)
 
 Installation
 ============
-pip3 install mailer
+pip3 install mail_alert
 
 useage
 ======
@@ -35,7 +35,7 @@ monitor all functions in this class and send email when error occur
 
 .. code-block:: pycon
 
-    >>> from mailer import MailAlert
+    >>> from mail_alert import MailAlert
     >>> @MailAlert(to="default", cc="cc")
     >>> class A:
     >>>    def hello(self):
@@ -49,7 +49,7 @@ monitor this decorated function and send email when error occur
 
 .. code-block:: pycon
 
-    >>> from mailer import MailAlert
+    >>> from mail_alert import MailAlert
     >>> class A:
     >>>    @MailAlert(to="default", cc="cc")
     >>>    def hello(self):

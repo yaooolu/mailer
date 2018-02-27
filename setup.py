@@ -5,7 +5,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "mailer",
+    name = "mail_alert",
     version = "0.0.1",
     keywords = ("pip", "email"),
     description = "monitor project and send email when errors occur",
